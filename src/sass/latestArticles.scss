@@ -1,3 +1,9 @@
 .latestArticles {
   border: 1px solid red;
+  &__item {
+    border: 1px solid green;
+    img {
+      max-width: 100%;
+    }
+  }
 }

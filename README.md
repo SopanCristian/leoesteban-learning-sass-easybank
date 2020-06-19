@@ -1,4 +1,4 @@
-# leoesteban-learning-sass-esaybank
+# leoesteban-learning-sass-easybank
 
 Aprendiendo SASS con Leonidas Esteban
 
