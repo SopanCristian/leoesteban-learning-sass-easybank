@@ -53,6 +53,10 @@
   margin-bottom: 1.5em;
 }
 
+.latestArticles {
+  border: 1px solid red;
+}
+
 body {
   font-family: "Public Sans", sans-serif;
   margin: 0;
