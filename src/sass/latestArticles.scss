@@ -1,9 +1,39 @@
 .latestArticles {
-  border: 1px solid red;
+  // border: 1px solid red;
+  padding: 5em 0;
+  background: var(--lightGray);
+  .title__h1 {
+    text-align: center;
+  }
+  .title__h3 {
+    text-align: left;
+  }
+  &__grid {
+    display: grid;
+    grid-row-gap: 2em;
+  }
   &__item {
-    border: 1px solid green;
+    // border: 1px solid green;
+    border-radius: 0.5em;
+    //para que la imagen no sobresalga
+    overflow: hidden;
+    background: var(--white);
+    &-content {
+      padding: 1.8em;
+    }
+    .copy {
+      color: var(--grayBlue);
+    }
+    small {
+      color: var(--grayBlue);
+      margin-bottom: 1em;
+      display: block;
+    }
     img {
-      max-width: 100%;
+      width: 100%;
+      //para que la imagen no sonbresalga
+      object-fit: cover;
+      display: block;
     }
   }
 }
