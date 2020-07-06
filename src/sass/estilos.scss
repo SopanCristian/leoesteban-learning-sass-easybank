@@ -16,6 +16,7 @@
 @import "./hero.scss";
 @import "./why.scss";
 @import "./latestArticles.scss";
+@import "./footer.scss";
 
 body {
   // border: 10px solid green;
@@ -83,4 +84,34 @@ body {
     var(--limeGreen) 0%,
     var(--rightCyan) 100%
   );
+}
+
+@mixin icon {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+}
+
+.icon {
+  &__facebook {
+    @include icon;
+    background-image: url("../images/icon-facebook.svg");
+  }
+  &__youtube {
+    @include icon;
+    background-image: url("../images/icon-youtube.svg");
+  }
+  &__twitter {
+    @include icon;
+    background-image: url("../images/icon-twitter.svg");
+  }
+  &__pinterest {
+    @include icon;
+    background-image: url("../images/icon-pinterest.svg");
+  }
+  &__instagram {
+    @include icon;
+    background-image: url("../images/icon-instagram.svg");
+  }
 }
